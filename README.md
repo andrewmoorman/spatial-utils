@@ -24,7 +24,7 @@ gdf = points_to_geoseries(
 )
 
 gdf = polygons_to_geoseries(
-    [                  # see docstring for other valid inputs
+    [                          # see docstring for other valid inputs
         shapely.Polygon([[0,0], [0,1], [1,1], [1,0], [0,0]]),
         shapely.Polygon([[1,1], [1,2], [2,2], [2,1], [1,1]]),
     ],
